@@ -1,0 +1,31 @@
+.navbar {
+    background-color: $eerie-black;
+    padding: 1.5rem 0;
+
+    &__logo{
+        width: 4.7rem;
+    }
+    &__nav{
+        margin-left: auto;
+    }
+
+}
+
+.nav-link {
+    color: $white;
+   
+    &:hover {
+        color: $spanish-pink;
+    }
+}
+
+.navbar__link--active{
+color:$spanish-pink ;
+}
+.fa-bars {
+    color: $white;
+}
+
+.icon__navbar {
+    background-color: $white !important;
+}

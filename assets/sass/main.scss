@@ -1,0 +1,25 @@
+// abstract 
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+// vendors 
+@import 'vendors/bootstrap_v.5.1/bootstrap.scss';
+// base 
+@import 'base/typography';
+@import 'base/reset';
+
+// layout 
+@import 'layout/article';
+@import 'layout/author';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/pagination';
+
+// components 
+@import 'components/buttons';
+@import'components/author__thumbnail';
+@import'components/author__description';
+@import'components/author__links';
+@import'components/paginacion__interfaces';
+
+

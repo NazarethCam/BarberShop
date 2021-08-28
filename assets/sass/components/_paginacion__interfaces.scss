@@ -1,0 +1,33 @@
+.pagination__interface{
+    display: flex;
+    justify-content: center;
+    a {color:$eerie-black;}
+}
+
+
+.pagination__previous{
+    border-top-left-radius: 15.25rem !important;
+    border-bottom-left-radius: 15.25rem !important;
+    color:$nickel  !important;
+    &--hover:hover{
+        color:$white !important;
+        background-color: $eerie-black;
+
+    }
+}
+.pagination__number{
+
+    &--hover:hover{
+        color:$white !important;
+        background-color:$eerie-black;
+    }
+}
+
+.pagination__next{
+    border-top-right-radius: 15.25rem !important;
+    border-bottom-right-radius: 15.25rem !important;
+    &--hover:hover{
+        color:$white !important;
+        background-color: $eerie-black;
+    }
+}

@@ -1,0 +1,16 @@
+.author__description {
+   
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    p {
+        font-weight: 300;
+        line-height: 2;
+    }
+}
+@media (max-width:$breakpoint-lg){
+	.author__description{
+		display: none;
+	}
+}

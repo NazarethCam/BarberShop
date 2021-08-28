@@ -1,0 +1,50 @@
+.header{
+    
+    background: url('../img/post-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+
+    @include center-element-flex;
+    flex-direction: column;
+    @include large-breakpoint{
+        min-height: 50vh;
+        }
+     
+}
+
+
+h1{
+    margin: 0 auto;
+    width: 60%;
+    color:$white ;
+    font-style: italic;
+    font-size:$xx-large;
+    font-weight:$black;
+    text-align: center;
+
+    @include large-breakpoint{
+        font-size:$x-large;
+        width:80%;
+      
+     
+        
+    }
+
+         
+}
+
+.header__icon{
+    color:$white;
+    font-size:$icon-size;
+    padding-top:24rem;
+    text-align: center;
+    
+    @include large-breakpoint{
+        padding-top:17rem;
+
+    
+    }
+}
