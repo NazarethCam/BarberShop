@@ -7,14 +7,6 @@
 @import 'base/typography';
 @import 'base/reset';
 
-// layout 
-@import 'layout/article';
-@import 'layout/author';
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/navigation';
-@import 'layout/pagination';
-
 // components 
 @import 'components/buttons';
 @import'components/author__thumbnail';
@@ -22,4 +14,16 @@
 @import'components/author__links';
 @import'components/paginacion__interfaces';
 
+
+// layout 
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/article';
+@import 'layout/author';
+@import 'layout/pagination';
+@import 'layout/footer';
+
+//pages
+
+//theme
 

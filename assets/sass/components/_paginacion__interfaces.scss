@@ -31,3 +31,8 @@
         background-color: $eerie-black;
     }
 }
+
+.pagination__link--active{
+background-color:$eerie-black;
+color: $white !important;
+}
